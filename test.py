@@ -20,7 +20,8 @@ with st.form(key='form1'):
   
 def Classifer(img):
   #Classifer
-  classifier = tf.keras.models.load_model('gfgModel.h5',custom_objects=None,
+  path = f'd:/gfgModel.h5'
+  classifier = tf.keras.models.load_model(path,custom_objects=None,
                                    compile=True)
   
   class_names = {0: 'Gaussian',1:'Salt and Pepper',2:'Speckle'} 

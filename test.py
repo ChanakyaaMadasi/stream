@@ -1,6 +1,5 @@
 import streamlit as st
 from skimage import color
-import time
 import numpy as np
 import cv2
 from PIL import Image, ImageOps
@@ -10,7 +9,6 @@ from tensorflow import keras
 import numpy as np
 from PIL import Image as pil_image
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
-import os
 from tensorflow.keras.preprocessing.image import img_to_array
 
 st.title("Image Denoising and Colouring")

@@ -1,7 +1,7 @@
 import streamlit as st
 from skimage import color
 import numpy as np
-import cv2
+#import cv2
 from PIL import Image, ImageOps
 import numpy as np
 import tensorflow as tf

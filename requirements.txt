@@ -5,8 +5,7 @@ matplotlib>=1.4.3
 pandas>=0.19
 streamlit
 tensorflow
-cv2
-tensorflow.keras.preprocessing.image
 os
 PIL
 time
+opencv-contrib-python-headless

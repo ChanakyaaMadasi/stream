@@ -20,7 +20,7 @@ with st.form(key='form1'):
   
 def Classifer(img):
   #Classifer
-  path = f'd:/gfgModel.h5'
+  path = "https://github.com/ChanakyaaMadasi/stream/blob/master/gfgModel.h5"
   classifier = tf.keras.models.load_model(path,custom_objects=None,
                                    compile=True)
   
